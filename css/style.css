@@ -727,8 +727,6 @@ h2{
 	margin-right: auto;
 }
 
-
-
 .orange{
 	color: #e66700;
 }
@@ -1129,7 +1127,7 @@ h2{
 }
 
 .about-text-title{
-	margin-top: 60px;
+	margin-top: 70px;
 	font-size: 3.3rem;
 	line-height: 1;
 }
@@ -1141,7 +1139,7 @@ h2{
 	
 
 .about-more{
-	margin: 40px auto 0;
+	margin: 30px auto 0;
 	font-size: 1.7rem
 }
 
