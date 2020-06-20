@@ -414,7 +414,7 @@ header a{
 }
 
 .main-photo .slick-slide.slick-current{
-	animation: fadezoom 10s ease;
+	animation: fadezoom 8s ease;
 }
 
 
