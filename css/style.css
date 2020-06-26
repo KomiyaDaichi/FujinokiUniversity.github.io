@@ -19,18 +19,17 @@ img {
 }
 
 
-
-
-
 .page{
 	position: relative;
 	overflow: hidden;
 	font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
 }
+
 .header-content{
 	position: relative;
 	width: 100%;
 }
+
 .header-top{
 	position: relative;
 	width: 100%;
@@ -38,7 +37,6 @@ img {
 	height: 45px;
 	line-height: 45px;
 	color: #fff;
-
 }
 
 header a{
@@ -77,7 +75,6 @@ header a{
 	background-color: #f1f1f1;
 }
 
-
 .nav-targetlist li{
 	width: 100%;
 }
@@ -102,7 +99,6 @@ header a{
 	width: 100%;
 }
 
-
 .language-menu{
 	position: relative;
 	font-size: 1.3rem;
@@ -126,7 +122,6 @@ header a{
 	top: 50%;
 	transform: translateY(-51%);
 	font-size: 1rem;
-	
 }
 
 @keyframes languageOpen{
@@ -165,8 +160,6 @@ header a{
 	display: block;
 }
 
-
-
 .document,
 .header-contact{
 	position: relative;
@@ -192,9 +185,8 @@ header a{
 	right: 0;
 	top: 50%;
 	transform: translateY(-50%);
-	width: 1px;
+	width: 1px;	
 	height: 30px;
-	
 }
 
 .header-bottom{
@@ -215,7 +207,6 @@ header a{
 	margin: 0 auto;
 	min-width:880px;
 }
-
 
 .logo{
 	position: relative;
@@ -290,7 +281,6 @@ header a{
 .res-content{
 	display: none;
 }
-
 
 .hover-nav a{
 	color:#333;
@@ -369,13 +359,9 @@ header a{
 
 
 
+																			/*メインビュー*/
 
 
-
-
-
-
-/*mainセクション*/
 
 .main{
 	position: relative;
@@ -403,7 +389,6 @@ header a{
 	opacity: .1;
 }
 
-
 @keyframes fadezoom {
 	0%{
 		transform:scale(1.2);
@@ -416,8 +401,6 @@ header a{
 .main-photo .slick-slide.slick-current{
 	animation: fadezoom 8s ease;
 }
-
-
 
 .main-font{
 	position: absolute;
@@ -459,7 +442,6 @@ header a{
 	transition:all .5s ease;
 }
 
-
 .fixed-document,
 .fixed-contact{
 	position: relative;
@@ -495,18 +477,20 @@ header a{
 
 .fixed-document::before{
 	content: "\f573";
-	left: 2px;
-	
+	left: 2px;	
 }
+
 .fixed-document{
 	background-color:#EFF82D;
 	color: #e66700;
 }
+
 .fixed-contact{
 	border-top: 1px solid #f1f1f1;
 	background-color: #e66700;
 	letter-spacing: 0px;
 }
+
 .scroll-up{
 	width: 75px;
 	height: 75px;
@@ -526,11 +510,7 @@ header a{
 
 
 
-
-
-
-
-/*topicセクション*/
+																		/*トピック*/
 
 h2{
 	position: relative;
@@ -591,7 +571,6 @@ h2{
 	margin-right: 30px;
 }
 
-
 .topic-day{
 	color: #e66700;
 	font-size: 1.4rem;
@@ -639,8 +618,7 @@ h2{
 	font-family: 'Yellowtail', cursive;;
 	font-size: 10vw;
 	color: #e66700;
-	letter-spacing: 5px;
-	
+	letter-spacing: 5px;	
 }
 
 .topic-bottombutton{
@@ -650,7 +628,6 @@ h2{
 	width: 30%;
 	height: 23%;
 	background-color: #e66700;
-	
 }
 
 .topic-bottombutton::before{
@@ -706,11 +683,9 @@ h2{
 
 
 
+																	/*インフォメーション*/
 
 
-
-
-/*informationセクション*/
 
 .information{
 	background-color: #ffeece;
@@ -735,7 +710,6 @@ h2{
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 10px;
-	
 }
 
 .information-box{
@@ -755,7 +729,6 @@ h2{
 .information-boxright{
 	margin-left: 30px;
 }
-
 
 .information-box a{
 	display: block;
@@ -791,7 +764,6 @@ h2{
 	line-height: 65px;
 }
 
-
 .information-more:hover{
 	background-color: #e66700;
 }
@@ -805,16 +777,10 @@ h2{
 
 
 
+																/*newsとeventセクション*/
 
 
 
-
-
-
-
-
-
-/*newsとeventセクション*/
 
 .news-event{
 	margin-top: 120px;
@@ -830,7 +796,7 @@ h2{
 
 
 
-/*newsセクション*/
+																			/*ニュース*/
 
 .news{
 	position: relative;
@@ -901,7 +867,6 @@ h2{
 	right: 5%;
 }
 
-
 .news-more:hover{
 	background-color: #e66700;
 }
@@ -913,7 +878,11 @@ h2{
 
 
 
-/*eventセクション*/
+																			/*イベント*/
+
+
+
+
 
 .event{
 	position: relative;
@@ -931,7 +900,6 @@ h2{
 	background-color: #BBBBBB;
 	z-index: -1;
 }
-
 
 .event img{
 	transition: all .5s ease;
@@ -1054,12 +1022,8 @@ h2{
 
 
 
+																	/*大学について*/
 
-
-
-
-
-/*aboutセクション*/
 
 .about{
 	margin-top: 120px;
@@ -1074,7 +1038,6 @@ h2{
 	margin-left: calc(60px + 6%);
 	
 }
-
 
 .about-mainbox{
 	width: 100%;
@@ -1101,7 +1064,6 @@ h2{
 	opacity: .3;
 	z-index: 1;
 }
-
 
 .about-box img{
 	transition: all .8s ease;
@@ -1137,7 +1099,6 @@ h2{
 	font-size: 1.4rem;
 }
 	
-
 .about-more{
 	margin: 30px auto 0;
 	font-size: 1.7rem
@@ -1146,27 +1107,25 @@ h2{
 
 
 
+																				/*コンタクト*/
 
 
-/*campusセクション*/
 
-.campus{
+
+.contact{
 	width: 100%;
 	margin-top: 120px;
 	padding-bottom: 40px;
 	position: relative;
 }
 
-.campus-contents{
+.contact-contents{
 	width: 88%;
 	margin :0 auto;
 	
 }
 
-
-
-
-.campus-information{
+.contact-information{
 	position: absolute;
 	top: 88px;
 	left: 0;
@@ -1179,7 +1138,7 @@ h2{
 	z-index: 2;
 }
 
-.campus-information i{
+.contact-information i{
 	position: absolute;
 	right: 5%;
 	top: 47%;
@@ -1203,12 +1162,12 @@ h2{
 	opacity: 0.7;
 }
 
-.campus-backimage{
+.contact-backimage{
 	position: relative;
 	margin-top: 270px;
 }
 
-.campus-backimage::before{
+.contact-backimage::before{
 	position: absolute;
 	content: "";
 	width: 100%;
@@ -1220,6 +1179,8 @@ h2{
 
 
 
+																			/*フッター*/
+
 
 
 .futter{
@@ -1229,7 +1190,7 @@ h2{
 	padding-top: 40px;
 }
 
-.contact{
+.futter-contact{
 	width: 80%;
 	margin: 20px auto 0;
 	display: flex;
@@ -1237,7 +1198,7 @@ h2{
 	background-color: #e66700;
 }
 
-.contact a{
+.futter-contact a{
 	position: relative;
 	display: block;
 	background-color: #fff;
@@ -1252,7 +1213,7 @@ h2{
 	transition: all .3s ease;
 }
 
-.contact a::before{
+.futter-contact a::before{
 	position: absolute;
 	content: "\f054";
 	right: 10%;
@@ -1261,13 +1222,13 @@ h2{
 	font-family: "Font Awesome 5 Free";
 }
 
-.contact a:hover{
+.futter-contact a:hover{
 	border: 1px solid #fff;
 	background-color: #e66700;
 	color: #fff;
 }
 
-.contact a:hover::before{
+.futter-contact a:hover::before{
 	color: #fff;
 }
 
@@ -1298,7 +1259,6 @@ h2{
 	font-size: 2rem;
 }
 
-
 .copy-right{
 	font-size: 1.4rem;
 	margin-top: 80px;
@@ -1309,19 +1269,7 @@ h2{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+																	/*レスポンシブ896px*/
 
 
 
@@ -1351,8 +1299,6 @@ h2{
 		width: 300px;
 		height: 65px;
 		top: 50%;;
-
-		
 	}
 	
 	.res-logo a{
@@ -1385,8 +1331,6 @@ h2{
 		font-weight: 100;
 	}
 
-	
-	
 	.res-target{
 		position: fixed;
 		right: 65px;
@@ -1399,7 +1343,6 @@ h2{
 		cursor: pointer;
 		color: #fff;
 	}
-	
 	
 	.res-target::before{
 		position: absolute;
@@ -1555,7 +1498,6 @@ h2{
 		left: 0;
 		right: 0;
 		margin: auto;
-		
 	}
 	
 	.res-menu-bottom-box i{
@@ -1566,23 +1508,21 @@ h2{
 	
 	
 	
-	
-	
+																				/*メインビュー*/
 	
 	
 	
 	.main{
 		margin-top: 65px;
 	}
-	
-	
+		
 	.main-font{
 		bottom: 7%;
 	}
 	.main-font1{
 		font-size:9.5rem;;
-
 	}
+	
 	.world{
 		font-size: 10rem;
 	}
@@ -1630,12 +1570,10 @@ h2{
 		font-weight: 900;
 	}
 
-
 	.fixed-contact{
 		border-top:none;
-}
+	}
 
-	
 	.scroll-up{
 		width: 60px;
 		height: 60px;
@@ -1654,12 +1592,16 @@ h2{
 	}
 
 	
+																			/*トピック*/
+	
+	
+	
 	
 	.topic{
 		margin-top: 80px;
 		padding-bottom: 40px;
 	}
-	
+
 	.section-title{
 		font-size: 5.4rem;
 		margin-left: 40px;
@@ -1685,7 +1627,6 @@ h2{
 		margin-right: 50px;
 	}
 	
-	
 	.topic-day{
 		font-size: 1.4rem;
 	}
@@ -1703,8 +1644,7 @@ h2{
 	.arrow-next{
 		right: calc(1vw + 45px);
 	}
-
-
+	
 	.topic-bottom{
 		margin-top: 30px;
 	}
@@ -1741,8 +1681,8 @@ h2{
 
 	
 	
-	
-	
+																	/*インフォメーション*/
+		
 	
 	
 	.information{
@@ -1752,7 +1692,6 @@ h2{
 		margin-top: 40px;
 		color: #111;
 	}
-
 
 	.information-mainbox{
 		display: block;
@@ -1772,14 +1711,12 @@ h2{
 		margin-left: 20px;
 	}
 	
-	
 	.information-more{
 		margin: 40px auto 0;
 		width: 100%;
 		height: 60px;
 		line-height: 60px;
-		font-size: 1.4rem;
-		
+		font-size: 1.4rem;	
 	}
 		
 	.information-more i{
@@ -1788,6 +1725,9 @@ h2{
 	
 	
 	
+	
+	
+																		/*ニュース・イベント*/
 	
 	
 	
@@ -1804,8 +1744,7 @@ h2{
 	
 	
 	
-	
-	/*newsレスポンシブ*/
+																			/*ニュース*/
 	
 	
 	
@@ -1845,8 +1784,10 @@ h2{
 
 
 
-	/*eventレスポンシブ*/
+																				/*イベント*/
 
+	
+	
 	.event{
 		width: 100%;
 		margin-top: 100px;
@@ -1901,6 +1842,8 @@ h2{
 	
 
 	
+																			/*大学について*/
+	
 	
 	
 	
@@ -1911,7 +1854,6 @@ h2{
 	.about-title{
 		margin-left: calc(40px + 6%);
 	}
-	
 	
 	.about-mainbox{
 		margin: 40px auto;
@@ -1936,26 +1878,25 @@ h2{
 		font-size: 1.2rem;
 	}
 
-
 	.about-more{
 		margin: 30px auto 0;
 		font-size: 1.5rem;
-}
+	}
 
 	
 	
-	.campus{
+	.contact{
 		width: 100%;
 		margin-top: 100px;
 		position: static;
 	}
 	
-	.campus-contents{
+	.contact-contents{
 		margin-left: auto;
 		margin-right: auto;
 	}
 	
-	.campus-information{
+	.contact-information{
 		position: static;
 		width: 100%;
 		margin-top: 50px;
@@ -1969,26 +1910,26 @@ h2{
 		right: 6%;
 	}
 	
-	.campus-backimage{
+	.contact-backimage{
 		display: none;
 	}
 	
 	
 	
+																			/*フッター*/
 	
 	
-
 	.futter{
 		margin-top: 20px;
 		padding-top: 20px;
 	}
 
-	.contact{
+	.futter-contact{
 		margin: 20px auto 0;
 		display: block;
 	}
 
-	.contact a{
+	.futter-contact a{
 		width: 100%;
 		height: 60px;
 		border-radius: 60px;
@@ -1997,11 +1938,10 @@ h2{
 		margin-top: 20px;
 	}
 
-	.contact a::before{
+	.futter-contact a::before{
 		right: 5%;
 		font-size: 1.6rem;
 	}
-
 
 	.futter-content{
 		margin: 30px auto 0;;
@@ -2017,7 +1957,6 @@ h2{
 		margin-top: 0;
 	}
 
-
 	.futter-box li:first-child{
 		font-weight: 100;
 		margin-bottom: 20px;
@@ -2030,28 +1969,22 @@ h2{
 		display: none;
 	}
 
-.copy-right{
-	font-size: 1.4rem;
-	margin-top: 40px;
-	padding-bottom: 80px;
-}
+	.copy-right{
+		font-size: 1.4rem;
+		margin-top: 40px;
+		padding-bottom: 80px;
+	}
 
 }
 
 
 
-
-
-
-
-
-
+															/*レスポンシブ480px*/
 
 
 
 @media(max-width:480px){
 		
-
 	.res-header{
 		height: 60px;
 	}
@@ -2078,8 +2011,6 @@ h2{
 		margin-left: 30px;
 	}
 
-	
-	
 	.res-target{
 		right: 60px;
 		width: 60px;
@@ -2087,8 +2018,7 @@ h2{
 		line-height: 86px;
 		font-size: .7rem;
 	}
-	
-	
+		
 	.res-target::before{
 		font-size: 1.6rem;
 		top: -18px;
@@ -2098,7 +2028,6 @@ h2{
 		width: 60px;
 		height: 60px;
 	}
-	
 	
 	.res-menu div:nth-of-type(1){
 		transform: translateY(-6px);
@@ -2112,8 +2041,6 @@ h2{
 		height: calc(100vh - 60px);
 	}
 		
-	
-	
 	.res-list-nav{
 		margin: 10px auto 0;
 	}
@@ -2157,13 +2084,12 @@ h2{
 
 
 	
-	
+																		/*メインビュー*/
 	
 	
 	
 	.main{
 		margin-top:55px;
-
 	}
 	
 	.main img{
@@ -2189,7 +2115,6 @@ h2{
 		margin-top: 10px;
 	}
 
-	
 	.fixed-contactmenu{
 		display: none;
 	}
@@ -2197,6 +2122,7 @@ h2{
 
 	
 	
+																			/*トピック*/
 	
 	
 	
@@ -2236,8 +2162,7 @@ h2{
 	
 	.topic-text{
 		margin-top: 10px;
-		font-size: 1.1rem;
-		
+		font-size: 1.1rem;	
 	}
 	
 	.arrow-next,
@@ -2245,7 +2170,6 @@ h2{
 		top: -20px;
 		font-size: 1rem;
 	}
-	
 	
 	.arrow-next{
 		right:calc(1vw + 35px);
@@ -2261,7 +2185,6 @@ h2{
 	
 	.topic-bottomtitle{
 		display: none;
-	
 	}
 
 	.topic-bottombutton{
@@ -2272,7 +2195,6 @@ h2{
 		width: 90%;
 		height: 80%;
 		background-color: rgba(230,103,0,0.9);
-
 	}
 
 	.topic-bottombutton::before{
@@ -2287,6 +2209,12 @@ h2{
 		display: none;
 	}
 
+	
+	
+																	/*インフォメーション*/
+	
+	
+	
 	
 	.information{
 		padding-top: 50px;
@@ -2312,7 +2240,6 @@ h2{
 		margin-left: 20px;
 	}
 	
-	
 	.information-more{
 		width: 100%;
 		height: 50px;
@@ -2322,7 +2249,6 @@ h2{
 		border: 1px solid #E66700;
 	}
 	
-	
 	.information-more i{
 		line-height: 50px;
 	}
@@ -2330,6 +2256,7 @@ h2{
 	
 	
 	
+																			/*ニュース・イベント*/
 	
 	
 	
@@ -2339,7 +2266,7 @@ h2{
 	
 	
 	
-	/*newsレスポンシブ480px*/
+																				/*ニュース*/
 	
 	
 	.news-mainbox{
@@ -2376,15 +2303,14 @@ h2{
 
 
 	
+																				/*イベント*/
+
 	
-
-	/*eventレスポンシブ480px*/
-
+	
 	.event{
 		margin-top: 80px;
 	}
 	
-
 	.event-mainbox{
 		margin-top: 50px;
 	}
@@ -2392,7 +2318,6 @@ h2{
 	.event-mainbox::before{
 		display: none;
 	}
-	
 	
 	.event-box{
 		margin-top: 25px;
@@ -2444,6 +2369,9 @@ h2{
 	
 
 	
+																			/*大学について*/
+	
+	
 	
 	.about{
 		margin-top: 80px;
@@ -2453,12 +2381,10 @@ h2{
 		margin-left: calc(6% + 30px);
 	}
 
-	
 	.about-mainbox{
 		margin: 30px auto;
 	}
 	
-
 	.about-text{
 		width: 110px;
 		height: 110px;
@@ -2481,30 +2407,28 @@ h2{
 	
 
 	
+																			/*コンタクト*/
 	
 	
 	
-	.campus{
+	.contact{
 		width: 100%;
 		position: static;
 		margin-top: 80px;
 	}
 	
-	
-	.campus-information{
+	.contact-information{
 		display: block;
 		position: static;
 		width: 100%;
 		margin-top: 40px;
 	}
 		
-	.campus-information i{
+	.contact-information i{
 		right: 5%;
 		font-size: 1.4rem;
 		opacity: 1;
 	}
-
-
 
 	.campus-guide{
 		margin-top: 40px;
@@ -2517,18 +2441,20 @@ h2{
 
 	
 	
+																				/*フッター*/
+		
 	
 	.futter{
 		margin-top: 10px;
 		padding-top: 20px;
 	}
 
-	.contact{
+	.futter-contact{
 		margin: 20px auto 0;
 		display: block;
 	}
 
-	.contact a{
+	.futter-contact a{
 		width: 100%;
 		height: 50px;
 		border-radius: 50px;
@@ -2537,11 +2463,10 @@ h2{
 		margin-top: 20px;
 	}
 
-	.contact a::before{
+	.futter-contact a::before{
 		right: 8%;
 		font-size: 1.4rem;
 	}
-
 
 	.futter-content{
 		margin: 40px auto 0;
@@ -2558,9 +2483,7 @@ h2{
 
 	.futter-box li:not(:first-child){
 		display: none;
-	}
-	
-	
+	}	
 	
 	.copy-right{
 		font-size: 1rem;

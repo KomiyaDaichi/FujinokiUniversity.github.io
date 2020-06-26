@@ -122,7 +122,6 @@ $(function(){
 		arrows:true,
 		prevArrow:".arrow-prev",
 		nextArrow:".arrow-next",
-
 		responsive:[
 			{
 
