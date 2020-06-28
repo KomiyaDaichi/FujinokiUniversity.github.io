@@ -1,4 +1,12 @@
 $(function(){
+	$(window).on("load",function(){
+		setTimeout(function(){
+			$('.loader').fadeOut();
+		},600)
+	});
+});
+
+$(function(){
 	$(window).scroll(function(){
 		if(window.matchMedia('(min-width:896px)').matches){
 
