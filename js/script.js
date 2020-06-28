@@ -2,7 +2,7 @@ $(function(){
 	$(window).on("load",function(){
 		setTimeout(function(){
 			$('.loader').fadeOut();
-		},1000)
+		},800)
 	});
 });
 
