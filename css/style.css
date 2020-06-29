@@ -396,6 +396,7 @@ header a{
 
 .main img{
 	width: 100%;
+	height: 100vh;
 	min-height: 55vh;
 	object-fit: cover;
 }
