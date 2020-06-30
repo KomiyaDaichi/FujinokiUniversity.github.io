@@ -240,7 +240,7 @@ header a{
 	display: flex;
 	line-height: 90px;
 	font-weight: 100;
-	margin-left: 20px;
+	margin-left: 40px;
 }
 
 .logo-mark{
@@ -263,7 +263,7 @@ header a{
 
 .nav-list-wrap{
 	width: 67%;
-	margin: 0 30px 0 auto;
+	margin: 0 40px 0 auto;
 	max-width: 830px;
 }
 
@@ -396,8 +396,7 @@ header a{
 
 .main img{
 	width: 100%;
-	height: 100vh;
-	min-height: 55vh;
+	min-height: 60vh;
 	object-fit: cover;
 }
 
@@ -1302,7 +1301,7 @@ h2{
 
 
 @media (max-width:896px){
-	
+		
 	.sp-hidden{
 		display: none;
 	}
@@ -1977,7 +1976,7 @@ h2{
 	}
 
 	.futter-box{
-		width: 50%;
+		width: 48%;
 	}
 
 	.futter-box li{
@@ -2012,6 +2011,19 @@ h2{
 
 
 @media(max-width:480px){
+	
+
+.loader-text{
+	font-size: 3rem;
+}
+
+.loader-sub-text{
+	font-size: 1rem;
+	margin-top: 30px;
+	margin-right: 5px;
+
+}
+
 		
 	.res-header{
 		height: 60px;
@@ -2259,9 +2271,9 @@ h2{
 	}
 	
 	.information-box{
-		height: 50px;
-		margin-top: 15px;
-		font-size: 1.2rem;
+		height: 65px;
+		margin-top: 10px;
+		font-size: 1.3rem;
 	}
 	
 	.information-box a{
@@ -2307,7 +2319,7 @@ h2{
 	}
 	
 	.n-date{
-		font-size: 1.1rem;
+		font-size: 1.2rem;
 		margin-top: 15px;
 	}
 	
@@ -2484,9 +2496,9 @@ h2{
 
 	.futter-contact a{
 		width: 100%;
-		height: 50px;
-		border-radius: 50px;
-		line-height: 50px;
+		height: 60px;
+		border-radius: 60px;
+		line-height: 60px;
 		font-size: 1.4rem;
 		margin-top: 20px;
 	}
@@ -2498,11 +2510,12 @@ h2{
 
 	.futter-content{
 		margin: 40px auto 0;
-		display: block;
 	}
 	
+	
+	
 	.futter-box li{
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 	}
 
 	.futter-box li:first-child{
