@@ -1432,6 +1432,7 @@ h2{
 		background-color: #e66700;
 		color: #fff;
 		transition: all .5s ease;
+		z-index: 998;
 	}
 	
 	.res-menu-list{
@@ -2071,9 +2072,6 @@ h2{
 		height: 60px;
 	}
 	
-	.res-menu-list.active{
-		top: 60px;
-	}
 	
 	.res-menu div:nth-of-type(1){
 		transform: translateY(-6px);
@@ -2085,6 +2083,10 @@ h2{
 	
 	.res-list{
 		height: calc(100vh - 60px);
+	}
+	
+	.res-menu-list.active{
+		top: 60px;
 	}
 		
 	.res-list-nav{
