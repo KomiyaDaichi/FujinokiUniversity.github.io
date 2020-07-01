@@ -1439,6 +1439,7 @@ h2{
 	}
 	
 	.res-menu-list.active{
+		top: 65px;
 		bottom: 0;
 	}
 	
@@ -2027,6 +2028,8 @@ h2{
 	.res-header{
 		height: 60px;
 	}
+	
+	
 
 	.res-logo{
 		left: 20px;
@@ -2066,6 +2069,10 @@ h2{
 	.res-menu{
 		width: 60px;
 		height: 60px;
+	}
+	
+	.res-menu-list.active{
+		top: 60px;
 	}
 	
 	.res-menu div:nth-of-type(1){
