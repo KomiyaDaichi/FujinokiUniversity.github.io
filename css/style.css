@@ -1339,7 +1339,7 @@ h2{
 		left: 30px;
 		width: 300px;
 		height: 65px;
-		top: 50%;;
+		top: 53%;;
 	}
 	
 	.res-logo a{
@@ -2081,6 +2081,7 @@ h2{
 
 	.res-logo-text{
 		font-size: 1.8rem;
+		font-weight: bold;
 		margin-left: 30px;
 	}
 
