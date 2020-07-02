@@ -1435,22 +1435,17 @@ h2{
 		z-index: 998;
 	}
 	
-	.res-menu-list{
-		transition: all .5s ease;
-	}
-	
-	.res-menu-list.active{
-		top: 65px;
-		bottom: 0;
-	}
-	
+	.res-menu-list,
 	.res-target-list{
 		transition: all .5s ease;
 	}
 	
+	.res-menu-list.active,
 	.res-target-list.active{
+		top: 65px;
 		bottom: 0;
-	}	
+	}
+	
 	
 	.res-list-nav{
 		width: 90%;
@@ -2085,7 +2080,8 @@ h2{
 		height: calc(100vh - 60px);
 	}
 	
-	.res-menu-list.active{
+	.res-menu-list.active,
+	.res-target-list{
 		top: 60px;
 	}
 		
