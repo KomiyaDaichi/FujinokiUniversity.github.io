@@ -1,9 +1,8 @@
+
 $(function(){
-	$(window).on("load",function(){
-		setTimeout(function(){
-			$('.loader').fadeOut();
-		},800)
-	});
+	setTimeout(function(){
+		$('.loading').fadeOut(1000);
+	},1000);
 });
 
 $(function(){
