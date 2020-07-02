@@ -2081,7 +2081,7 @@ h2{
 	}
 	
 	.res-menu-list.active,
-	.res-target-list{
+	.res-target-list.active{
 		top: 60px;
 	}
 		
