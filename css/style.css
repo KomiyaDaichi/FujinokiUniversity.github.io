@@ -1741,10 +1741,16 @@ h2{
 		height: 60px;
 		line-height: 60px;
 		font-size: 1.4rem;	
+		background-color: #e66700;
 	}
 		
+	.information-more a{
+		color: #fff;
+	}
+	
 	.information-more i{
 		line-height: 60px;
+		color: #fff;
 	}	
 	
 	
@@ -1800,10 +1806,16 @@ h2{
 		height: 60px;
 		line-height: 60px;
 		font-size: 1.4rem;
+		background-color: #e66700;
+	}
+	
+	.news-more a{
+		color: #fff;
 	}
 
 	.news-more i{
 		line-height: 60px;
+		color: #fff;
 	}
 
 
@@ -1858,10 +1870,16 @@ h2{
 		height: 60px;
 		line-height: 60px;
 		font-size: 1.4rem;
+		background-color: #e66700;
+	}
+	
+	.event-more a{
+		color: #fff;
 	}
 	
 	.event-more i{
 		line-height: 60px;
+		color: #fff;
 	}
 	
 
