@@ -2057,7 +2057,7 @@ h2{
 
 		
 	.res-header{
-		height: 60px;
+		height: 55px;
 	}
 	
 	
@@ -2065,13 +2065,13 @@ h2{
 	.res-logo{
 		left: 20px;
 		width: 150px;
-		height: 60px;	
+		height: 55px;	
 	}
 	
 
 	.res-logo-mark{
 		font-size: 2.8rem;
-		height: 60px;
+		height: 55px;
 	}
 
 	.res-logo-mark2{
@@ -2086,21 +2086,21 @@ h2{
 	}
 
 	.res-target{
-		right: 60px;
-		width: 60px;
-		height: 60px;
-		line-height: 86px;
+		right: 55px;
+		width: 55px;
+		height: 55px;
+		line-height: 81px;
 		font-size: .7rem;
 	}
 		
 	.res-target::before{
-		font-size: 1.6rem;
-		top: -18px;
+		font-size: 1.4rem;
+		top: -16px;
 	}
 	
 	.res-menu{
-		width: 60px;
-		height: 60px;
+		width: 55px;
+		height: 55px;
 	}
 	
 	
@@ -2113,12 +2113,12 @@ h2{
 	}
 	
 	.res-list{
-		height: calc(100vh - 60px);
+		height: calc(100vh - 55px);
 	}
 	
 	.res-menu-list.active,
 	.res-target-list.active{
-		top: 60px;
+		top:55px;
 	}
 		
 	.res-list-nav{
@@ -2169,7 +2169,7 @@ h2{
 	
 	
 	.main{
-		margin-top:60px;
+		margin-top:55px;
 	}
 	
 	.main img{
