@@ -219,7 +219,7 @@
 			<!--入力画面-->
 			<form method="post" action="./confirmation.php">
 			<div class="form-content">
-				<h1 class="form-title">資料請求</h1>			
+				<h1 class="form-title">資料請求</h1>
 				<div class="advance-mainbox">
 					<div class="advance-box advance1">
 						<p>STEP1</p>
@@ -228,11 +228,11 @@
 					<div class="advance-box advance2">
 						<p>STEP2</p>
 						<p class="advance-text">確認画面</p>
-					</div>				
+					</div>
 					<div class="advance-box advance3">
 						<p>STEP3</p>
 						<p class="advance-text">受付完了</p>
-					</div>			
+					</div>
 				</div>
 			
 				<div class="form-name">
@@ -240,14 +240,14 @@
 					<p>
 						<input class="form-nametext" type="text" name="yournamesei" placeholder="姓">
 						<input class="form-nametext" type="text" name="yournamemei" placeholder="名">
-					</p>				
+					</p>
 					<h3 class="form-name-hiragana">カナ</h3>
 					<p>
 						<input class="form-nametext" type="text" name="yournameseikana" placeholder="セイ">
 						<input class="form-nametext" type="text" name="yournamemeikana" placeholder="メイ">
-					</p>			
+					</p>
 				</div>
-				<div class="form-birthday">				
+				<div class="form-birthday">
 					<h2>生年月日</h2>
 					<p>
 						<select class="form-year" name="year">
