@@ -191,7 +191,33 @@
 			</div>
 		</header>
 		
-		<form method="post" action="confirmation.php">
+		<?php if($_POST){ ?>
+		<!--確認画面　-->
+		<form method="post" action="./confirmation.php">
+			<?php echo $_POST['yournamesei'] ?>
+			<?php echo $_POST['yournamemei'] ?><br>
+			
+			<?php echo $_POST['yournameseikana'] ?>
+			<?php echo $_POST['yournamemeikana'] ?><br>
+			
+			<?php echo $_POST['year'] ?>
+			<?php echo $_POST['month'] ?>
+			<?php echo $_POST['day'] ?><br>
+			
+			<?php echo $_POST['zip21'] ?>
+			<?php echo $_POST['zip22'] ?><br>
+			
+			<?php echo $_POST['addr21'] ?><br>
+			
+			<?php echo $_POST['mailaddress'] ?><br>
+			
+			<?php echo $_POST['category'] ?><br>
+			
+			<input type="submit" name="back" value="戻る">
+			<input type="submit" name="send" value="送信">
+			<?php } else {?>
+			<!--入力画面-->
+			<form method="post" action="./confirmation.php">
 			<div class="form-content">
 				<h1 class="form-title">資料請求</h1>			
 				<div class="advance-mainbox">
@@ -338,60 +364,61 @@
 							<option value="31">31</option>
 						</select>日
 					</p>
-			
-			</div>
-			<div class="form-address">
-				<h2>ご住所</h2>
-				<h3 class="form-address-subtitle">郵便番号</h3>
-				<p>
-					<input class="form-addressnumber" type="text" name="zip21" maxlength="3"> － <input class="form-addressnumber" type="text" name="zip22" maxlength="4" onKeyUp="AjaxZip3.zip2addr('zip21','zip22','addr21','addr21');"><span class="address-auto">住所自動入力</span>
-				</p>
-				<h3 class="address-text">都道府県+以降の住所</h3>
-				<p>
-					<input class="form-addresstext" type="text" name="addr21" >
-				</p>
-			</div>
-			<div class="form-mailaddress">
-				<h2>メールアドレス</h2>
-				<input class="form-mailaddress-text" type="text" name="mail-address" value="">
-			</div>
-			<div class="form-subjuct">
-				<h2>希望学科</h2>
-				<div class="form-subject-container">
-					<p class="category-text">
-						<input name="category" type="checkbox"><span>国際学部</span>
+				</div>
+				<div class="form-address">
+					<h2>ご住所</h2>
+					<h3 class="form-address-subtitle">郵便番号</h3>
+					<p>
+						<input class="form-addressnumber" type="text" name="zip21" maxlength="3"> － <input class="form-addressnumber" type="text" name="zip22" maxlength="4" onKeyUp="AjaxZip3.zip2addr('zip21','zip22','addr21','addr21');"><span class="address-auto">住所自動入力</span>
 					</p>
-					<p class="category-text">
-						<input name="category" type="checkbox"><span class="category-text">経営学部</span>
-					</p>
-					<p class="category-text">
-						<input name="category" type="checkbox"><span class="category-text">外国語学部</span>
-					</p>
-					<p class="category-text">
-						<input name="category" type="checkbox"><span class="category-text">農学部</span>
-					</p>
-					<p class="category-text">
-						<input name="category" type="checkbox"><span class="category-text">文学部</span>
-					</p>
-					<p class="category-text">
-						<input name="category" type="checkbox"><span class="category-text">政治経済学部</span>
-					</p>
-					<p class="category-text">
-						<input name="category" type="checkbox"><span class="category-text">商学部</span>
-					</p>
-					<p class="category-text">
-						<input name="category" type="checkbox"><span class="category-text">工学部</span>
-					</p>
-					<p class="category-text">
-						<input name="category" type="checkbox"><span class="category-text">法学部</span>
+					<h3 class="address-text">都道府県+以降の住所</h3>
+					<p>
+						<input class="form-addresstext" type="text" name="addr21" >
 					</p>
 				</div>
+				<div class="form-mailaddress">
+					<h2>メールアドレス</h2>
+					<input class="form-mailaddress-text" type="text" name="mail-address" value="">
+				</div>
+				<div class="form-subjuct">
+					<h2>希望学科</h2>
+					<div class="form-subject-container">
+						<p class="category-text">
+							<input name="category" type="checkbox"><span>国際学部</span>
+						</p>
+						<p class="category-text">
+							<input name="category" type="checkbox"><span class="category-text">経営学部</span>
+						</p>
+						<p class="category-text">
+							<input name="category" type="checkbox"><span class="category-text">外国語学部</span>
+						</p>
+						<p class="category-text">
+							<input name="category" type="checkbox"><span class="category-text">農学部</span>
+						</p>
+						<p class="category-text">
+							<input name="category" type="checkbox"><span class="category-text">文学部</span>
+						</p>
+						<p class="category-text">
+							<input name="category" type="checkbox"><span class="category-text">政治経済学部</span>
+						</p>
+						<p class="category-text">
+							<input name="category" type="checkbox"><span class="category-text">商学部</span>
+						</p>
+						<p class="category-text">
+							<input name="category" type="checkbox"><span class="category-text">工学部</span>
+						</p>
+						<p class="category-text">
+							<input name="category" type="checkbox"><span class="category-text">法学部</span>
+						</p>
+					</div>
+				</div>
+				<div class="form-submit">
+					<input type="submit" name="submit" class="form-submitbutton" value="入力内容の確認へ">
+				</div>
 			</div>
-			<div class="form-submit">
-				<input type="submit" name="submit" class="form-submitbutton" value="入力内容の確認へ">
-			</div>
-		</div>
-	</form>
+		</form>
+		<?php } ?>
+		
 
 	<footer class="footer">
 		<div class="footer-contact">
