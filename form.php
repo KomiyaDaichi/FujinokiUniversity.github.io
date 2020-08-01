@@ -193,7 +193,7 @@
 		
 		<?php if($_POST){ ?>
 		<!--確認画面　-->
-		<form method="post" action="./confirmation.php">
+		<form method="post" action="./form.php">
 			<?php echo $_POST['yournamesei'] ?>
 			<?php echo $_POST['yournamemei'] ?><br>
 			
