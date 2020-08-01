@@ -1210,14 +1210,14 @@ h2{
 
 
 
-.futter{
+.footer{
 	display: block;
 	background-color: #e66700;
 	width: 100%;
 	padding-top: 40px;
 }
 
-.futter-contact{
+.footer-contact{
 	width: 80%;
 	margin: 20px auto 0;
 	display: flex;
@@ -1225,7 +1225,7 @@ h2{
 	background-color: #e66700;
 }
 
-.futter-contact a{
+.footer-contact a{
 	position: relative;
 	display: block;
 	background-color: #fff;
@@ -1240,7 +1240,7 @@ h2{
 	transition: all .3s ease;
 }
 
-.futter-contact a::before{
+.footer-contact a::before{
 	position: absolute;
 	content: "\f054";
 	right: 10%;
@@ -1249,38 +1249,38 @@ h2{
 	font-family: "Font Awesome 5 Free";
 }
 
-.futter-contact a:hover{
+.footer-contact a:hover{
 	border: 1px solid #fff;
 	background-color: #e66700;
 	color: #fff;
 }
 
-.futter-contact a:hover::before{
+.footer-contact a:hover::before{
 	color: #fff;
 }
 
-.futter-content{
+.footer-content{
 	display: flex;
 	justify-content: space-between;
 	width: 80%;
 	margin: 40px auto 0;;
 }
 
-.futter-box{
+.footer-box{
 	color: #fff;
 }
 
-.futter-box li{
+.footer-box li{
 	line-height: 1;
 	font-size: 1.5rem;
 	margin-top: 18px;
 }
 
-.futter-box a{
+.footer-box a{
 	color: #fff;
 }
 
-.futter-box li:first-child{
+.footer-box li:first-child{
 	font-weight: bold;
 	margin-bottom: 25px;
 	font-size: 2rem;
@@ -1440,13 +1440,15 @@ h2{
 	
 	.res-list{
 		position: fixed;
-		bottom: -100vh;
+		top: 65px;
 		width: 100%;
 		height: calc(100vh - 65px);
 		background-color: #e66700;
 		color: #fff;
 		transition: all .5s ease;
 		z-index: 998;
+		opacity: 0;
+		visibility: hidden;
 	}
 	
 	.res-menu-list,
@@ -1456,8 +1458,8 @@ h2{
 	
 	.res-menu-list.active,
 	.res-target-list.active{
-		top: 65px;
-		bottom: 0;
+		opacity: 1;
+		visibility: visible;
 	}
 	
 	
@@ -1975,17 +1977,17 @@ h2{
 																			/*フッター*/
 	
 	
-	.futter{
+	.footer{
 		margin-top: 20px;
 		padding-top: 20px;
 	}
 
-	.futter-contact{
+	.footer-contact{
 		margin: 20px auto 0;
 		display: block;
 	}
 
-	.futter-contact a{
+	.footer-contact a{
 		width: 100%;
 		height: 60px;
 		border-radius: 60px;
@@ -1994,26 +1996,26 @@ h2{
 		margin-top: 20px;
 	}
 
-	.futter-contact a::before{
+	.footer-contact a::before{
 		right: 5%;
 		font-size: 1.6rem;
 	}
 
-	.futter-content{
+	.footer-content{
 		margin: 30px auto 0;;
 		flex-wrap: wrap;
 	}
 
-	.futter-box{
+	.footer-box{
 		width: 48%;
 	}
 
-	.futter-box li{
+	.footer-box li{
 		font-size: 1.4rem;
 		margin-top: 0;
 	}
 
-	.futter-box li:first-child{
+	.footer-box li:first-child{
 		font-weight: 100;
 		margin-bottom: 20px;
 		font-size: 1.5rem;
@@ -2021,7 +2023,7 @@ h2{
 		padding: 1em;
 	}
 
-	.futter-box li:not(:first-child){
+	.footer-box li:not(:first-child){
 		display: none;
 	}
 
@@ -2332,19 +2334,12 @@ h2{
 	.information-more i{
 		line-height: 50px;
 	}
-
-	
-	
 	
 																			/*ニュース・イベント*/
-	
-	
 	
 	.news-event{
 		margin-top: 70px;
 	}
-	
-	
 	
 																				/*ニュース*/
 	
@@ -2518,23 +2513,20 @@ h2{
 	.open-campus{
 		padding-right: 0;
 	}
-
-	
-	
-																				/*フッター*/
+																					/*フッター*/
 		
 	
-	.futter{
+	.footer{
 		margin-top: 10px;
 		padding-top: 20px;
 	}
 
-	.futter-contact{
+	.footer-contact{
 		margin: 20px auto 0;
 		display: block;
 	}
 
-	.futter-contact a{
+	.footer-contact a{
 		width: 100%;
 		height: 55px;
 		border-radius: 55px;
@@ -2543,26 +2535,26 @@ h2{
 		margin-top: 20px;
 	}
 
-	.futter-contact a::before{
+	.footer-contact a::before{
 		right: 8%;
 		font-size: 1.4rem;
 	}
 
-	.futter-content{
+	.footer-content{
 		margin: 30px auto 0;
 	}
 	
 	
 	
-	.futter-box li{
+	.footer-box li{
 		font-size: 1.3rem;
 	}
 
-	.futter-box li:first-child{
+	.footer-box li:first-child{
 		font-weight: 100;
 	}
 
-	.futter-box li:not(:first-child){
+	.footer-box li:not(:first-child){
 		display: none;
 	}	
 	
